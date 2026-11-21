@@ -6,7 +6,10 @@ class Solution:
                 a.pop()
             else:
                 a.append(i)    
-        return "".join(a) 
+        b=""
+        for i in a:
+            b=b+i
+        return b    
         
     
         
